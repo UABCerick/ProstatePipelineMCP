@@ -2,7 +2,7 @@
 
 Pipeline agéntico para registro deformable MRI-TRUS de próstata. Combina modelos de deep learning (CoarseCNN), un motor de registro elastix, y el LLM clínico MedGemma 27B orquestados mediante LangGraph con intervención humana explícita (HITL) en cada decisión crítica.
 
-> Proyecto de investigación doctoral — Facultad de Ingeniería, UABC  
+> Proyecto de investigación — Facultad de Ingeniería, UABC  
 > Autor: [@UABCerick](https://github.com/UABCerick)
 
 ---
