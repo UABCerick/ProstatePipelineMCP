@@ -1,0 +1,28 @@
+# ── Core MCP ──────────────────────────────────────────────
+fastmcp>=0.9.0
+mcp>=1.0.0
+
+# ── Validation ────────────────────────────────────────────
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# ── Medical imaging ───────────────────────────────────────
+pydicom>=2.4.4
+SimpleITK>=2.3.1
+numpy>=1.26.0
+
+# ── LangGraph + Ollama (Fase 3) ───────────────────────────
+langgraph>=0.2.0
+langchain-ollama>=0.1.0
+langchain-core>=0.2.0
+
+# ── API / UI ──────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn>=0.30.0
+httpx>=0.27.0
+gradio>=4.36.0
+
+# ── Utilities ─────────────────────────────────────────────
+rich>=13.7.0
+python-dotenv>=1.0.0
+loguru>=0.7.2

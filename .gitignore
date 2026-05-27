@@ -1,0 +1,66 @@
+# ── Entorno y configuración ───────────────────────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Datos de pacientes (NUNCA subir) ─────────────────────────────────────────
+data/
+!data/.gitkeep
+
+# ── Modelos entrenados ────────────────────────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+
+# ── Checkpoints y bases de datos ─────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+venv/
+env/
+AIagents*/
+.venv/
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Archivos temporales ───────────────────────────────────────────────────────
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ── NIfTI y DICOM (datos médicos) ────────────────────────────────────────────
+*.nii
+*.nii.gz
+*.dcm
+*.DCM
+*.mha
+*.mhd
+*.nrrd
